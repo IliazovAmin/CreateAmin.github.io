@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    background-image: url("./img/geeks_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    left: 10px; /* Позиционируем кнопку "No" слева */
+    bottom: 10px; /* Позиционируем кнопку "No" снизу */
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+.text {
+    background: white;
+    width: 90%; /* Ширина текстового блока 90% от ширины экрана */
+    max-width: 600px; /* Максимальная ширина текстового блока */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.header_text {
+    font-family: cursive;
+    font-size: 30px; /* Уменьшаем размер шрифта */
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.buttons {
+    width: 90%; /* Ширина блока с кнопками 90% от ширины экрана */
+    max-width: 600px; /* Максимальная ширина блока с кнопками */
+    display: flex;
+    flex-direction: column; /* Отображаем кнопки в столбец */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 90%; /* Ширина кнопки 90% от ширины блока с кнопками */
+    max-width: 300px; /* Максимальная ширина кнопки */
+    height: 80px; /* Уменьшаем высоту кнопки */
+    background-color: deeppink;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px; /* Уменьшаем размер шрифта */
+    margin: 20px; /* Увеличиваем отступы между кнопками */
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 90%; /* Ширина изображения 90% от ширины экрана */
+    max-width: 300px; /* Максимальная ширина изображения */
+}
