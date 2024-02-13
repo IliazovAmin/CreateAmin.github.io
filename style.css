@@ -9,19 +9,19 @@ body {
     background-size: cover;
 }
 
-/* Position the "No" button absolutely within body */
+
 #noButton {
     position: absolute;
-    left: 10px; /* Позиционируем кнопку "No" слева */
-    bottom: 10px; /* Позиционируем кнопку "No" снизу */
+    left: 10px; 
+    bottom: 10px; 
     transition: 0.5s;
-    /* Smooth movement */
+    
 }
 
 .text {
     background: white;
-    width: 90%; /* Ширина текстового блока 90% от ширины экрана */
-    max-width: 600px; /* Максимальная ширина текстового блока */
+    width: 90%; 
+    max-width: 600px; 
     height: 70px;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
 
 .header_text {
     font-family: cursive;
-    font-size: 30px; /* Уменьшаем размер шрифта */
+    font-size: 30px; 
     font-weight: bold;
     color: black;
     text-align: center;
@@ -39,26 +39,26 @@ body {
 }
 
 .buttons {
-    width: 90%; /* Ширина блока с кнопками 90% от ширины экрана */
-    max-width: 600px; /* Максимальная ширина блока с кнопками */
+    width: 90%; 
+    max-width: 600px; 
     display: flex;
-    flex-direction: column; /* Отображаем кнопки в столбец */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
 .btn {
-    width: 90%; /* Ширина кнопки 90% от ширины блока с кнопками */
-    max-width: 300px; /* Максимальная ширина кнопки */
-    height: 80px; /* Уменьшаем высоту кнопки */
+    width: 90%; 
+    max-width: 300px; 
+    height: 80px; 
     background-color: deeppink;
     color: white;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 24px; /* Уменьшаем размер шрифта */
-    margin: 20px; /* Увеличиваем отступы между кнопками */
+    font-size: 24px; 
+    margin: 20px;
     cursor: pointer;
     border: none;
     border-radius: 12px;
@@ -72,6 +72,6 @@ body {
 }
 
 img {
-    width: 90%; /* Ширина изображения 90% от ширины экрана */
-    max-width: 300px; /* Максимальная ширина изображения */
+    width: 90%; 
+    max-width: 300px;
 }
